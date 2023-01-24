@@ -17,8 +17,8 @@ def login():
     driver.find_element('xpath','/html/body/table[2]/tbody/tr[2]/td/table/tbody/tr/td/font/a[8]').click()
     #点击academics以及registration
 
-    driver.find_element('id','j_username').send_keys('yubo@bu.edu')
-    driver.find_element('id','j_password').send_keys('QYbb20011023')
+    driver.find_element('id','j_username').send_keys('')
+    driver.find_element('id','j_password').send_keys('')
     #在登录界面 输入用户名和密码
 
     driver.find_element('xpath','//*[@id="wrapper"]/div/form/button').click()
